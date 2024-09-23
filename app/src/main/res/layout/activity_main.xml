@@ -28,7 +28,8 @@
         android:inputType="numberDecimal"
         android:textSize="18sp"
         android:padding="12dp"
-        android:minHeight="48dp" />
+        android:minHeight="48dp"
+        tools:ignore="Autofill" />
 
     <TextView
         android:layout_width="wrap_content"

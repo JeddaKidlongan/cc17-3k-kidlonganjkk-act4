@@ -39,7 +39,7 @@ class MainActivity : AppCompatActivity() {
 
         val tipPercentage = when (tipOptionsGroup.checkedRadioButtonId) {
             R.id.amazing_option -> 0.30
-            R.id.good_option -> 0.28
+            R.id.good_option -> 0.20
             R.id.ok_option -> 0.10
             else -> 0.0
         }
